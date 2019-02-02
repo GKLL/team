@@ -1,0 +1,44 @@
+.search {
+  margin: .266667rem;
+  background: #fff;
+  border-radius: 4px;
+  height: .96rem;
+  line-height: .96rem;
+}
+.search img {
+  display: inline-block;
+  width: .533333rem;
+  height: .533333rem;
+  vertical-align: middle;
+  margin-left: .266667rem;
+}
+.search input {
+  display: inline-block;
+  text-align: center;
+  width: 5.333333rem;
+  font-family:PingFangSC-Regular;
+  font-size: 14px;
+}
+.search-list {
+  background: #fff;
+}
+.search-list li {
+  margin:0 .266667rem;
+  height: 1.44rem;
+  line-height: 1.44rem;
+  border-bottom: 1px solid #DFDFDD;
+}
+.search-list li  img {
+  display: inline-block;
+  width: .48rem;
+  height: .426667rem;
+  vertical-align: middle;
+  margin-top: -6px;
+}
+.search-list li span {
+  font-size: 16px;
+  font-family:PingFangSC-Medium;
+  font-weight: bold;
+  color:rgba(0,0,0,1);
+  margin-left: .533333rem;
+}

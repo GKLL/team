@@ -1,0 +1,59 @@
+.search {
+  margin: .266667rem;
+  background: #fff;
+  border-radius: 4px;
+  height: .96rem;
+  line-height: .96rem;
+}
+.search img {
+  display: inline-block;
+  width: .533333rem;
+  height: .533333rem;
+  vertical-align: middle;
+  margin-left: .266667rem;
+}
+.search input {
+  display: inline-block;
+  text-align: center;
+  width: 5.333333rem;
+  font-family:PingFangSC-Regular;
+  font-size: 14px;
+}
+.main-list-title {
+  padding-left: .32rem;
+  height: 1.173333rem;
+  font-family:PingFangSC-Medium;
+  line-height: 1.173333rem;
+  font-size: 15px;
+  color: #000;
+  font-weight: bold;
+  border-bottom: 1px solid #DFDFDD;
+ }
+ .main-list li {
+   background: #fff;
+   margin: .266667rem;
+   padding-bottom: .133333rem;
+ }
+ .work-status {
+   margin: .32rem;
+   background: #006666;
+   height: 2.72rem;
+ }
+ .work-status img {
+   width: 1.333333rem;
+   height: 1.333333rem;
+   display: inline-block;
+   margin: .266667rem 0;
+ }
+ .work-status-icon {
+   text-align: center;
+ }
+ .work-status-tip {
+   display: -webkit-flex;
+   display: flex;
+   justify-content: space-between;
+   margin: 0 .32rem;
+   color: #fff;
+   font-size: 14px;
+   font-family:PingFangSC-Regular;
+ }

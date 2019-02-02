@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>班组</title>
+    <meta content="width=device-width,initial-scale=1.0,maximum-scale=1.0,user-scalable=0" name="viewport" />
+    <meta content="yes" name="apple-mobile-web-app-capable" />
+    <meta content="black" name="apple-mobile-web-app-status-bar-style" />
+    <meta content="telephone=no" name="format-detection" />
+    <!-- 引入YDUI样式 -->
+    <link rel="stylesheet" href="css/ydui.css?rev=@@hash"/>
+    <link rel="stylesheet" href="css/index.css"/>
+    <link rel="stylesheet" href="css/team.css"/>
+    <!-- 引入YDUI自适应解决方案类库 -->
+    <script src="js/ydui.flexible.js"></script>
+    <link rel="stylesheet" type="text/css" href="./css/mobileSelect.css">
+    <script src="./js/mobileSelect.js" type="text/javascript"></script>
+    <script src="./js/datePicker.js"></script>
+</head>
+<body>
+<div class="g-flexview">
+    <header class="m-navbar">
+      <a href="#" class="navbar-item" onclick="javascript:history.back(-1);"><i class="back-ico"></i></a>
+      <div class="navbar-center"><h3 class="navbar-title">班组</h3></div>
+      <a href="#" class="navbar-item"><img src="./images/home.png" alt=""/></a>
+    </header>
+    <main class="main g-scrollview">
+      <div class="main-list">
+        <div class="main-list-title">
+          <div>签到</div>
+          <div class="main-list-title-right">查看签到></div>
+        </div>
+        <div class="main-list-content">
+          <div class="cell-item myinput">
+            <div class="cell-left label" >当前时间</div>
+            <div class="cell-right"><input type="text" class="cell-input after" placeholder="请选择时间" autocomplete="off" id="date_select" /></div>
+          </div>
+        </div>
+        <div class="team-btn">
+          <a href="javascript:;">签到</a>
+        </div>
+      </div>
+      <div class="main-list main-import">
+          <div class="main-list-title">
+            <div>文件</div>
+            <div class="main-list-title-right">查看文件></div>
+          </div>
+          <div class="main-list-content">
+            <div class="cell-item myinput">
+              <div class="cell-left label">上级文件</div>
+              <div class="cell-right"><input type="text" class="cell-input after" placeholder="请选择文件" autocomplete="off" /></div>
+            </div>
+          </div>
+          <div class="main-list-footer">
+            <div class="and"><img src="./images/laobaoyongpin.png" />劳保用品</div>
+            <div><img src="./images/anquan.png" /></i>安全学习</div>
+          </div>
+      </div>
+      <div class="main-list main-import">
+          <div class="main-list-title main-import">
+            <div>今日工作重点</div>
+            <div class="upload">
+              <!-- <input type="file"  name="file" multiple id="file" accept="image/*" onchange="handleFile()"/> -->
+              <a href="./form.html" class="btn btn-see"> <img src="./images/add.png" alt=""/></a>
+            </div>
+          </div>
+      </div>
+      <div class="main-list">
+        <div class="main-list-title">
+          <div>任务列表</div>
+        </div>
+        <div class="main-list-content">
+          <div class="main-list-item1">
+            <div class="team-task">
+              <div class="team-task-left">操作电机</div>
+              <div class="team-task-right">
+                <span><img alt="" src="./images/chakan.png"/></span>
+                <span><img alt="" src="./images/yaosuda.png"/></span>
+                <span><img alt="" src="./images/shanchu.png"/></span>
+              </div>
+            </div>
+            <div class="team-task">
+              <div class="team-task-left">加热锅炉</div>
+              <div class="team-task-right">
+                <span><img alt="" src="./images/chakan.png"/></span>
+                <span><img alt="" src="./images/yaosuda.png"/></span>
+                <span><img alt="" src="./images/shanchu.png"/></span>
+              </div>
+            </div>
+          </div>
+          <div class="team-textarea">
+              <textarea class="cell-textarea" placeholder="请输入相关详情...">参加操作人、监护人声明，我已掌握上述危险</textarea>
+          </div>
+        </div>
+      </div>
+      <div class="main-list">
+        <div class="main-list-title">
+          <div>总结发言</div>
+        </div>
+        <div class="main-list-content">
+          <div class="team-textarea block">
+              <textarea class="cell-textarea" placeholder="请在此输入文字..."></textarea>
+          </div>
+        </div>
+      </div>
+      <div class="main-list">
+        <div class="main-list-title">
+          <div>其他</div>
+        </div>
+        <div class="main-list-content">
+          <div class="team-textarea block">
+              <textarea class="cell-textarea" placeholder="请在此输入文字..."></textarea>
+          </div>
+        </div>
+      </div>
+      <div class="m-button">
+        <button type="button" class="btn-block btn-primary">保存</button>
+      </div>
+    </main>
+</div>
+<!-- 引入jQuery 2.0+ -->
+<script src="http://apps.bdimg.com/libs/jquery/2.1.4/jquery.min.js"></script>
+<!-- 引入YDUI脚本 -->
+<script src="js/ydui.js"></script>
+<script>
+    !function ($) {
+        // 选择日期
+      	
+    }(jQuery);
+    var calendar = new datePicker();
+      calendar.init({
+        'trigger': '#date_select', /*按钮选择器，用于触发弹出插件*/
+        'type': 'date',/*模式：date日期；datetime日期时间；time时间；ym年月；*/
+        'minDate':'1900-1-1',/*最小日期*/
+        'maxDate':'2100-12-31',/*最大日期*/
+        'onSubmit':function(){/*确认时触发事件*/
+          var theSelectData=calendar.value;
+        },
+        'onClose':function(){/*取消时触发事件*/
+        }
+      });
+</script>
+</body>
+</html>

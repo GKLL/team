@@ -1,0 +1,113 @@
+.main-list {
+  margin: .266667rem;
+  background: #fff;
+  padding-bottom: .266667rem;
+}
+ .main-list-title {
+  padding-left: .32rem;
+  height: 1.173333rem;
+  font-family:PingFangSC-Medium;
+  line-height: 1.173333rem;
+  font-size: 15px;
+  color: #000;
+  font-weight: bold;
+  border-bottom: 1px solid #DFDFDD;
+ }
+ .main-list-content {
+  margin-top: .426667rem;
+ }
+ .main-list-content .label {
+  font-size: 15px;
+  font-family:PingFangSC-Regular;
+  font-weight: bold;
+  color:rgba(0,0,0,1);
+  width: 2rem;
+  text-align: center!important;
+  justify-content: center;
+ }
+
+ .main-list-content input {
+   font-family:PingFangSC-Regular;
+   color: #000;
+   font-size: 15px;
+   font-weight: bold;
+   border:1px solid rgba(231,231,231,1);
+   border-radius:4px;
+   padding-left: .32rem;
+   width: 2.813333rem;
+ }
+ .myinput {
+   margin-bottom: .426667rem;
+ }
+ .cell-select {
+ 
+  border:1px solid rgba(231,231,231,1);
+  border-radius:4px;
+  padding-left: .32rem;
+  font-family:PingFangSC-Regular;
+  color: #000;
+  font-size: 15px;
+  font-weight: bold;
+ }
+
+ .main-list-content textarea {
+  width: 100%;
+  border-radius:4px;
+  border:1px solid rgba(231,231,231,1);
+  background: #fff;
+  padding: .32rem;
+  font-size: 15px;
+  font-family:PingFangSC-Regular;
+  min-height: 2.493333rem;
+  color: #000;
+  font-weight: bold;
+ }
+ .cell-nocenter {
+   align-items: flex-start !important;
+ }
+ .select {
+   width: 4.513333rem;
+   font-size: 15px;
+   font-weight: bold;
+   border: 1px solid #DFDFDD;
+   height: 50px;
+   line-height:  50px;
+   text-align: left;
+   padding-left: .266667rem;
+   border-radius: 4px;
+   color: #000;
+ }
+
+.navbar-right {
+  margin-right: 0!important;
+}
+
+.main-list-item {
+  padding-left: .32rem;
+  height: 1.173333rem;
+  font-family:PingFangSC-Medium;
+  line-height: 1.173333rem;
+  font-size: 15px;
+  color: #000;
+  font-weight: bold;
+  display: -webkit-flex;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.main-list-item .btn {
+  display: inline-block;
+  margin-right: .266667rem !important;
+  padding: 0 .266667rem;
+}
+.btn-see span{
+  display: inline-block;
+}
+.btn-see img{
+  display: inline-block;
+  vertical-align: middle;
+  width: .533333rem;
+  margin-left: .133333rem;
+  margin-top: -4px;
+}

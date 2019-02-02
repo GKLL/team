@@ -1,0 +1,117 @@
+.main-list {
+  margin: .266667rem;
+  background: #fff;
+  padding-bottom: .266667rem;
+}
+ .main-list-title {
+  padding-left: .32rem;
+  height: 1.173333rem;
+  line-height: 1.173333rem;
+  font-size: 15px;
+  color: #000;
+  font-weight: bold;
+  border-bottom: 1px solid #DFDFDD;
+  display: -webkit-flex;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+ }
+ .main-list-content {
+  margin-top: .426667rem;
+  border-bottom: 1px solid #DFDFDD;
+  padding-bottom: .426667rem;
+ }
+ .main-list-content .label {
+  font-size: 15px;
+  font-family:PingFangSC-Regular;
+  font-weight: bold;
+  color:rgba(0,0,0,1);
+ }
+
+ .main-list-content input {
+   margin-left: .533333rem;
+   font-family:PingFangSC-Regular;
+   color: #000;
+   font-size: 15px;
+   font-weight: bold;
+   border:1px solid rgba(231,231,231,1);
+   border-radius:4px;
+   padding-left: .32rem;
+ }
+ .myinput {
+   margin-bottom: .426667rem;
+ }
+ .cell-select {
+  margin-left: .533333rem;
+  border:1px solid rgba(231,231,231,1);
+  border-radius:4px;
+  padding-left: .32rem;
+  font-family:PingFangSC-Regular;
+  color: #000;
+  font-size: 15px;
+  font-weight: bold;
+ }
+
+ .main-list-content textarea {
+  margin-left: .533333rem;
+  border-radius:4px;
+  border:1px solid rgba(231,231,231,1);
+  background: #fff;
+  padding: .32rem;
+  font-size: 15px;
+  font-family:PingFangSC-Regular;
+  min-height: 5.493333rem;
+ }
+ .cell-nocenter {
+   align-items: flex-start !important;
+ }
+ .demo-progressbar-item-text {
+  display: -webkit-box; display: -webkit-flex; display: -ms-flexbox; display: flex; -webkit-justify-content: space-around; -ms-flex-pack: distribute; justify-content: space-between; -webkit-box-align: center; -webkit-align-items: center; -ms-flex-align: center; align-items: center;
+  font-family:PingFangSC-Regular;
+  margin-bottom: .266667rem;
+ }
+ .demo-progressbar-item-text div:nth-child(1) span{
+   font-size: 22px;
+   font-weight: 22px;
+ }
+ .demo-progressbar-item-text div:nth-child(1) {
+  font-size: 15px;
+ }
+ .demo-progressbar-item-text div:nth-child(2) {
+  font-size: 15px;
+  color: #757575;
+ }
+ .tip {
+   width: 100%;
+   text-align: right;
+   margin-top: .266667rem;
+   font-size: 14px;
+   font-family:PingFangSC-Regular;
+   color:rgba(117,117,117,1);
+ }
+ .main-footer-content {
+   margin: .266667rem;
+   background:rgba(238,238,238,1);
+   color: #333333;
+   padding: .32rem;
+   font-size:14px;
+  font-family:PingFangSC-Regular;
+  font-weight:400;
+  min-height: 8rem;
+ }
+ .main-list-title .btn {
+  display: inline-block;
+  margin-right: .266667rem !important;
+  border-radius: 18px;
+  padding: 0 .266667rem;
+}
+.btn-see span{
+  display: inline-block;
+}
+.btn-see img{
+  display: inline-block;
+  vertical-align: middle;
+  width: .266667rem;
+  margin-left: .133333rem;
+  margin-top: -4px;
+}

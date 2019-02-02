@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>参加学习</title>
+    <meta content="width=device-width,initial-scale=1.0,maximum-scale=1.0,user-scalable=0" name="viewport" />
+    <meta content="yes" name="apple-mobile-web-app-capable" />
+    <meta content="black" name="apple-mobile-web-app-status-bar-style" />
+    <meta content="telephone=no" name="format-detection" />
+    <!-- 引入YDUI样式 -->
+    <link rel="stylesheet" href="css/ydui.css?rev=@@hash"/>
+    <link rel="stylesheet" href="css/index.css"/>
+    <link rel="stylesheet" href="css/takeLean.css"/>
+    <!-- 引入YDUI自适应解决方案类库 -->
+    <script src="js/ydui.flexible.js"></script>
+</head>
+<body>
+<div class="g-flexview">
+    <header class="m-navbar">
+      <a href="#" class="navbar-item" onclick="javascript:history.back(-1);"><i class="back-ico"></i></a>
+      <div class="navbar-center"><h3 class="navbar-title">参加学习</h3></div>
+      <a href="#" class="navbar-item"><img src="./images/home.png" alt=""/></a>
+    </header>
+    <main class="main g-scrollview">
+      <div class="main-list">
+        <div class="main-list-title">
+          <div>学习内容标题</div>
+          <div><a href="javascript:;" class="btn btn-primary btn-see"> <img src="./images/icon.png" alt=""/> <span>签到</span></a> </div>
+        </div>
+        <div class="main-list-content" id="J_ProgressBox">
+          <div class="demo-progressbar demo-small-pitch">
+              <div class="demo-progressbar-item">
+                  <!-- 代码部分start -->
+                  <div class="demo-progressbar-item-text">
+                    <div><span>90</span>分钟</div>
+                    <div>总共学习时间</div>
+                  </div>
+                  <div class="progress-bar demo-progress-line" data-ydui-progressbar="{type: 'line', strokeWidth: 6, progress: .8, trailColor: '#006666', binder: '#J_ProgressBox'}"></div>
+                  <!-- 代码部分end -->
+              </div>
+          </div>
+          <div class="demo-progressbar demo-small-pitch">
+              <div class="demo-progressbar-item">
+                  <!-- 代码部分start -->
+                  <div class="demo-progressbar-item-text">
+                    <div><span>30</span>分钟</div>
+                    <div>总共学习时间</div>
+                  </div>
+                  <div class="progress-bar demo-progress-line" data-ydui-progressbar="{type: 'line', strokeWidth: 6, progress: .8, trailColor: '#CC3333', binder: '#J_ProgressBox'}"></div>
+                  <div class="tip">2019-02-12班前会创建</div>
+                  <!-- 代码部分end -->
+              </div>
+          </div>
+        </div>
+        <div class="main-footer-content"> 文件展示内容</div>
+      </div>
+    </main>
+</div>
+<!-- 引入jQuery 2.0+ -->
+<script src="http://apps.bdimg.com/libs/jquery/2.1.4/jquery.min.js"></script>
+<!-- 引入YDUI脚本 -->
+<script src="js/ydui.js"></script>
+<script>
+ 
+</script>
+</body>
+</html>
