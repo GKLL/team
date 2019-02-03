@@ -1,0 +1,134 @@
+.main {
+  background: #FFF;
+}
+.main-section {
+  height: .8rem;
+  padding-left: .373333rem;
+  line-height: .8rem;
+  padding-right: .533333rem;
+  border-bottom: 1px solid #DBD6D6;
+}
+.main-section span {
+  display: inline-block;
+  font-size: 14px;
+}
+.main-section-left {
+  font-weight:bold;
+  color:#C53336;
+}
+.main-section-centent {
+  color: #757575;
+  margin-left: .44rem;
+}
+.main-section-centent span {
+  color:#C53336;
+}
+.main-section-right {
+  float: right;
+  color: #576B95;
+  font-size: 14px;
+}
+.ico-list {
+  display: -webkit-flex;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: .48rem;
+}
+.ico-list li {
+  width: 1.6rem;
+  text-align: center;
+}
+.ico-img {
+  width: .933333rem;
+  height: .933333rem;
+  line-height: .933333rem;
+  text-align: center;
+  border-radius: 50%;
+  margin: 0 auto;
+}
+.ico-img img {
+  display: inline-block;
+  /* width: .746667rem; */
+  height: .48rem;
+  vertical-align: middle;
+}
+.ico-tip {
+  color: #333333;
+  font-size: 12px;
+  margin-top: .266667rem;
+}
+.bg-red {
+  background: #ED9C9B;
+}
+.bg-pop {
+  background: #9AA6BF;
+}
+.bg-green {
+  background: #7FB2B2;
+}
+.main-comtent-set {
+  display: -webkit-flex;
+  display: flex;
+  justify-content: space-around;
+  margin-top: .4rem;
+}
+.main-comtent-set .main-imgbox {
+  text-align: center;
+}
+.main-imgbox img {
+  display: inline-block;
+  height: 1.733333rem;
+}
+.main-set-tip {
+  font-size: 12px;
+  color: #576B95;
+  margin-top: .133333rem;
+}
+.main-set-tip > span {
+  display: inline-block;
+}
+.main-set-tip > span > span {
+  display: inline-block;
+  color: #757575;
+  margin: 0 .066667rem;
+}
+.main-content-tab {
+  margin-bottom: .666667rem;
+}
+.tab-nav-el {
+  border-bottom: 0!important;
+}
+.news-list {
+  margin-top: .266667rem;
+}
+.news-list li {
+  display: -webkit-flex;
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid #DBD6D6;
+  padding: .266667rem;
+}
+.news-list-left {
+  width: 4.4rem;
+}
+.news-list-left .title {
+  font-size: 15px;
+  color:rgba(51,51,51,1);
+  font-weight: bold;
+  line-height: 0.6rem;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+  overflow: hidden;
+}
+.news-list-right img{
+  display: inline-block;
+  /* width: 1.866667rem; */
+  height: 1.773333rem;
+}
+.dec {
+  color:rgba(153,153,153,1);
+  margin-top: .133333rem;
+  font-size: 12px;
+}
